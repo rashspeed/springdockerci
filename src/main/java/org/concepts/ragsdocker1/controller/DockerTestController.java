@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DockerTestController {
     @GetMapping
     public String hello() {
-        return "Hello World! Changed";
+        return "Hello World! Docker Changes";
     }
 }
